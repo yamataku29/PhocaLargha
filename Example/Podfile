@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PhocaLargha_Example' do
+  pod 'PhocaLargha', :path => '../'
+
+  target 'PhocaLargha_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
