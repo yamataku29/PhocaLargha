@@ -11,10 +11,10 @@
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A27FAF11A83AF5D5BEF92B41 /* Pods_PhocaLargha_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3194302CA308777C250D323C /* Pods_PhocaLargha_Example.framework */; };
 		E274EF78BE4091FE9C240CAE /* Pods_PhocaLargha_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C6170F0D230448738F1DEE /* Pods_PhocaLargha_Tests.framework */; };
+		F00C3C77211AD3EB0021A43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00C3C75211AD3EB0021A43B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		01644E2D51DC101F42859CA7 /* Pods-PhocaLargha_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhocaLargha_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhocaLargha_Tests/Pods-PhocaLargha_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3194302CA308777C250D323C /* Pods_PhocaLargha_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhocaLargha_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		415A5ADE7B955070F4729154 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		42E18E31E2620970954D19E4 /* PhocaLargha.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PhocaLargha.podspec; path = ../PhocaLargha.podspec; sourceTree = "<group>"; };
+		415A5ADE7B955070F4729154 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42E18E31E2620970954D19E4 /* PhocaLargha.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PhocaLargha.podspec; path = ../PhocaLargha.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52820841DD49CA6A0A78CDAB /* Pods-PhocaLargha_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhocaLargha_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhocaLargha_Example/Pods-PhocaLargha_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PhocaLargha_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhocaLargha_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,14 +39,14 @@
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PhocaLargha_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhocaLargha_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6143AC6A9EABB0A2BE679531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6143AC6A9EABB0A2BE679531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		734FD10325B333EA92BB098A /* Pods-PhocaLargha_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhocaLargha_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhocaLargha_Tests/Pods-PhocaLargha_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		77C6170F0D230448738F1DEE /* Pods_PhocaLargha_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhocaLargha_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0127972EDC21744E77BC879 /* Pods-PhocaLargha_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhocaLargha_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhocaLargha_Example/Pods-PhocaLargha_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F00C3C76211AD3EB0021A43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +93,11 @@
 		607FACD21AFB9204008FA782 /* Example for PhocaLargha */ = {
 			isa = PBXGroup;
 			children = (
+				F00C3C75211AD3EB0021A43B /* LaunchScreen.storyboard */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for PhocaLargha";
@@ -248,8 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00C3C77211AD3EB0021A43B /* LaunchScreen.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,12 +402,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		F00C3C75211AD3EB0021A43B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				F00C3C76211AD3EB0021A43B /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

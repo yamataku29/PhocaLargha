@@ -1,7 +1,7 @@
 {
   "name": "PhocaLargha",
   "version": "0.1.0",
-  "summary": "A short description of PhocaLargha.",
+  "summary": "A library that can easily display a rich walkthrough.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/takuyama29/PhocaLargha",
   "license": {
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "PhocaLargha/Classes/**/*"
 }

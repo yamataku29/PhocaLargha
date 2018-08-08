@@ -9,14 +9,20 @@
 /* Begin PBXBuildFile section */
 		03477835953AFA61F3FFADAEE80A9BD2 /* Pods-PhocaLargha_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3893C3BF604E2B2922B8C1680DFFC9D /* Pods-PhocaLargha_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0677431E67CC1AB9369244C26A2AC13C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		13CC41E5B0DFD99EBB4F92E6D12794F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		077F5DFD6BB6FF48837D7F994243A42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0F8413A127E867FE7AE3DBB1BE07C225 /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0DA7CFAB91B682480BC336B46DFA2D /* PagingScrollView.swift */; };
 		25873A173FED5AEB8F8528B9E58A0F95 /* Pods-PhocaLargha_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A94F87C9967AD5FF28128F7F826D95 /* Pods-PhocaLargha_Example-dummy.m */; };
 		392EF50FAF512F9A8322597B7C29ABA5 /* Pods-PhocaLargha_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 508EAB9A9D0E9E36FEF657A26A720939 /* Pods-PhocaLargha_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6BCAA4017CF5FB08A556B00DB3170B /* AnimationStyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4860C106F165B7C1DB33BDE80AF746B /* AnimationStyleSheet.swift */; };
 		3FC5FD89C9948177B07AAEA62F5504BA /* Pods-PhocaLargha_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FD844C500BDB34391352642AADE6B7 /* Pods-PhocaLargha_Tests-dummy.m */; };
 		500247E9B1207B397FA6AF659BE0F848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		79952BF33904ABE735353B68DA6DC432 /* PhocaLargha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D25BAC0A846A58715BCD1C2CC73F789 /* PhocaLargha-dummy.m */; };
-		BD29C69DB4B96B4F4B2256B8534D92B6 /* PhocaLargha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B7097A564451AAA0F450CB16B7D85 /* PhocaLargha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F06DF6972528E2AC066D39E145775EB0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A652779B08E17B9BE511DD7EB64FAC /* ReplaceMe.swift */; };
+		8A1E9811065529FF52662A597E982C47 /* PhocaLargha-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8749487C7022E19D6CBEE12B9BC504A /* PhocaLargha-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BD1959BB8555459704C01B19E86C26 /* GradientStyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CFD487DADCEC8467B952605522055 /* GradientStyleSheet.swift */; };
+		9BEE54939E0AF1A57910EF23F9731AB5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38894770EF06949EC68B9499F24E937F /* BaseView.swift */; };
+		9E6050E19678658BA9C28673630E6D41 /* PopNaviConfigureOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6B41ED082F5E1261CCD8ADAB9AAFE /* PopNaviConfigureOption.swift */; };
+		ABD26492FBCCDDFE227DF6AE0B4349AE /* PhocaLargha-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5ACB09C834D5455D45C48012AD388 /* PhocaLargha-dummy.m */; };
+		FC0FF97FAF5D8705ABDAA6988D3E258F /* ComponentConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68171293D491ED5835154AF46538042E /* ComponentConfigure.swift */; };
+		FCBC2F88FF24B15A9AAFFC53DDB520A3 /* PopNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0515DA48BE9AC9F70CCA2ADFAE2D9099 /* PopNavi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,55 +30,61 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0879A89170610653A469D945530B6645;
+			remoteGlobalIDString = 4244BA5D5801277C33A66BB5C3D29F8E;
 			remoteInfo = PhocaLargha;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09D8218601F05587FE94BC56E8A64ECA /* PhocaLargha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhocaLargha-prefix.pch"; sourceTree = "<group>"; };
+		0515DA48BE9AC9F70CCA2ADFAE2D9099 /* PopNavi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopNavi.swift; path = PhocaLargha/Classes/PopNavi.swift; sourceTree = "<group>"; };
 		0A88D08D776803D75011ADD62967ECBE /* Pods-PhocaLargha_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhocaLargha_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D25BAC0A846A58715BCD1C2CC73F789 /* PhocaLargha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhocaLargha-dummy.m"; sourceTree = "<group>"; };
 		12F42F93DB40AF60778752789C96F2F6 /* PhocaLargha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PhocaLargha.framework; path = PhocaLargha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7FE7E2B50F56005B0B57159B9A4BB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E2BC6CB1B6993543FD37D9697BA0E0E /* Pods-PhocaLargha_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhocaLargha_Example.modulemap"; sourceTree = "<group>"; };
+		1FE6B41ED082F5E1261CCD8ADAB9AAFE /* PopNaviConfigureOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopNaviConfigureOption.swift; sourceTree = "<group>"; };
 		273899BDDE23BFFBCD5F8EADEAADC169 /* Pods-PhocaLargha_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhocaLargha_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		347DF5E3ECF1DECCEC4D768A2FEC4952 /* PhocaLargha.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PhocaLargha.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38894770EF06949EC68B9499F24E937F /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		496D864033FEFA05F2F50A68FD240846 /* Pods-PhocaLargha_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhocaLargha_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4AEFF78DFE8958B2AECAAA6ABAE8044B /* Pods-PhocaLargha_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhocaLargha_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		508EAB9A9D0E9E36FEF657A26A720939 /* Pods-PhocaLargha_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhocaLargha_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6070B44F1A9AF7B90E897DFD3A2E1004 /* Pods-PhocaLargha_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhocaLargha_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63A7CF1149BF6A5572242D80E775EFF3 /* PhocaLargha.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PhocaLargha.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68171293D491ED5835154AF46538042E /* ComponentConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComponentConfigure.swift; sourceTree = "<group>"; };
+		8063A03056FEC9661B03E110AC378EFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D3F0F2CB6446F7AC26D2FCA3996A5E /* Pods-PhocaLargha_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhocaLargha_Example.release.xcconfig"; sourceTree = "<group>"; };
+		83B7CA01CF1C8FDD8D8D0B84733D7BE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		870F70965B7E1A9142432EAF6278BAED /* Pods_PhocaLargha_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhocaLargha_Example.framework; path = "Pods-PhocaLargha_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FD844C500BDB34391352642AADE6B7 /* Pods-PhocaLargha_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhocaLargha_Tests-dummy.m"; sourceTree = "<group>"; };
+		922203C7BF01AE059498A5343C2E9420 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96022B0A61C4BE86CB2416F7541259B0 /* Pods-PhocaLargha_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhocaLargha_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A3893C3BF604E2B2922B8C1680DFFC9D /* Pods-PhocaLargha_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhocaLargha_Example-umbrella.h"; sourceTree = "<group>"; };
-		A3A652779B08E17B9BE511DD7EB64FAC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PhocaLargha/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A955D9199E321630C136E691423F7504 /* Pods-PhocaLargha_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhocaLargha_Tests-resources.sh"; sourceTree = "<group>"; };
-		AB8246E4C42F04ED0E4101491802B1F9 /* PhocaLargha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PhocaLargha.modulemap; sourceTree = "<group>"; };
+		B60CFD487DADCEC8467B952605522055 /* GradientStyleSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientStyleSheet.swift; sourceTree = "<group>"; };
 		B8CD9DAF7BF4BFDD2C1B32745FEE66CB /* Pods-PhocaLargha_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhocaLargha_Tests.modulemap"; sourceTree = "<group>"; };
-		BD31C2715D1CD7247993CC7258D0E87B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BCE5ACB09C834D5455D45C48012AD388 /* PhocaLargha-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhocaLargha-dummy.m"; sourceTree = "<group>"; };
 		C5206DC0844399124178BD2D95BA3CF2 /* Pods-PhocaLargha_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhocaLargha_Example-resources.sh"; sourceTree = "<group>"; };
+		C5DD26AD72820521A096AF8A02EC659C /* PhocaLargha.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PhocaLargha.modulemap; sourceTree = "<group>"; };
 		CB5F65A4934658EBD2CD038C74DE8610 /* Pods-PhocaLargha_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhocaLargha_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCC166B383E59FA61B7F4A06D9F3D951 /* Pods-PhocaLargha_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhocaLargha_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD85FE2C5C9B805019357D9D20CF960C /* PhocaLargha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhocaLargha.xcconfig; sourceTree = "<group>"; };
 		CF16BC4F3FE8A7A3FF895E745D9BF8B9 /* Pods-PhocaLargha_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhocaLargha_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D3A94F87C9967AD5FF28128F7F826D95 /* Pods-PhocaLargha_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhocaLargha_Example-dummy.m"; sourceTree = "<group>"; };
-		D41B427153F5F27F94E77CE11B7E1B86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E75725CC450D2BECC4D56707963987D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC05CA5A1BC4FEB659BC1004E99117BC /* PhocaLargha-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhocaLargha-prefix.pch"; sourceTree = "<group>"; };
+		DD0DA7CFAB91B682480BC336B46DFA2D /* PagingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
 		E843FE22C92B9F3C4F7F68F6CA20F4C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8749487C7022E19D6CBEE12B9BC504A /* PhocaLargha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhocaLargha-umbrella.h"; sourceTree = "<group>"; };
 		E8DA1E432B96411DAF441A5080C384E7 /* Pods_PhocaLargha_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhocaLargha_Tests.framework; path = "Pods-PhocaLargha_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF042DF4919F1FA4D02012CC49F5994A /* PhocaLargha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhocaLargha.xcconfig; sourceTree = "<group>"; };
-		FA6B7097A564451AAA0F450CB16B7D85 /* PhocaLargha-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhocaLargha-umbrella.h"; sourceTree = "<group>"; };
+		F4860C106F165B7C1DB33BDE80AF746B /* AnimationStyleSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationStyleSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		718A2F5FCA2FE05A174EDE8192AA5395 /* Frameworks */ = {
+		1D475787A49FC778DC96C81F762011EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CC41E5B0DFD99EBB4F92E6D12794F9 /* Foundation.framework in Frameworks */,
+				077F5DFD6BB6FF48837D7F994243A42F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,14 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		430AE7579764E5FBB4B71CA7427BB640 /* Pod */ = {
+		0E601E65D3217B9EFE7943D73AEE1910 /* StyleSheet */ = {
 			isa = PBXGroup;
 			children = (
-				BD31C2715D1CD7247993CC7258D0E87B /* LICENSE */,
-				347DF5E3ECF1DECCEC4D768A2FEC4952 /* PhocaLargha.podspec */,
-				D41B427153F5F27F94E77CE11B7E1B86 /* README.md */,
+				F4860C106F165B7C1DB33BDE80AF746B /* AnimationStyleSheet.swift */,
+				B60CFD487DADCEC8467B952605522055 /* GradientStyleSheet.swift */,
 			);
-			name = Pod;
+			name = StyleSheet;
+			path = PhocaLargha/Classes/StyleSheet;
 			sourceTree = "<group>";
 		};
 		47FB1C40B0FA9B78CCAC588AC9CC133B /* Targets Support Files */ = {
@@ -112,6 +124,30 @@
 				78F3F59F333B3097B1B77C1DC84A1019 /* Pods-PhocaLargha_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		715CCEFC436B499ECB3E00EE66F992D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8063A03056FEC9661B03E110AC378EFF /* Info.plist */,
+				C5DD26AD72820521A096AF8A02EC659C /* PhocaLargha.modulemap */,
+				CD85FE2C5C9B805019357D9D20CF960C /* PhocaLargha.xcconfig */,
+				BCE5ACB09C834D5455D45C48012AD388 /* PhocaLargha-dummy.m */,
+				DC05CA5A1BC4FEB659BC1004E99117BC /* PhocaLargha-prefix.pch */,
+				E8749487C7022E19D6CBEE12B9BC504A /* PhocaLargha-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PhocaLargha";
+			sourceTree = "<group>";
+		};
+		723F3C2F67CDC48C4EC522D5148DB3EF /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				68171293D491ED5835154AF46538042E /* ComponentConfigure.swift */,
+				1FE6B41ED082F5E1261CCD8ADAB9AAFE /* PopNaviConfigureOption.swift */,
+			);
+			name = Configure;
+			path = PhocaLargha/Classes/Configure;
 			sourceTree = "<group>";
 		};
 		78F3F59F333B3097B1B77C1DC84A1019 /* Pods-PhocaLargha_Tests */ = {
@@ -136,25 +172,31 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CC5856778A2896CA034D7528DCCEE43D /* Development Pods */,
+				F469DD445B20FEE8F7D4AAFAC37FE4B4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				EC61A97B9623052B0650CC23F1AFC54C /* Products */,
 				47FB1C40B0FA9B78CCAC588AC9CC133B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A8A25CDAA8808402A11CBB98B77D0DAC /* Support Files */ = {
+		9D5A10261FF7290555853DF58DD75AAF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E75725CC450D2BECC4D56707963987D3 /* Info.plist */,
-				AB8246E4C42F04ED0E4101491802B1F9 /* PhocaLargha.modulemap */,
-				EF042DF4919F1FA4D02012CC49F5994A /* PhocaLargha.xcconfig */,
-				0D25BAC0A846A58715BCD1C2CC73F789 /* PhocaLargha-dummy.m */,
-				09D8218601F05587FE94BC56E8A64ECA /* PhocaLargha-prefix.pch */,
-				FA6B7097A564451AAA0F450CB16B7D85 /* PhocaLargha-umbrella.h */,
+				922203C7BF01AE059498A5343C2E9420 /* LICENSE */,
+				63A7CF1149BF6A5572242D80E775EFF3 /* PhocaLargha.podspec */,
+				83B7CA01CF1C8FDD8D8D0B84733D7BE5 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PhocaLargha";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9FE0C3AF49C393CAC19D1516BD2B17F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38894770EF06949EC68B9499F24E937F /* BaseView.swift */,
+				DD0DA7CFAB91B682480BC336B46DFA2D /* PagingScrollView.swift */,
+			);
+			name = Views;
+			path = PhocaLargha/Classes/Views;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -165,14 +207,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC5856778A2896CA034D7528DCCEE43D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E1F3D473CCCF2B776EACB610538598CB /* PhocaLargha */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,12 +215,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E1F3D473CCCF2B776EACB610538598CB /* PhocaLargha */ = {
+		E7FA140E0277D1CA73261428E27B92D5 /* PhocaLargha */ = {
 			isa = PBXGroup;
 			children = (
-				A3A652779B08E17B9BE511DD7EB64FAC /* ReplaceMe.swift */,
-				430AE7579764E5FBB4B71CA7427BB640 /* Pod */,
-				A8A25CDAA8808402A11CBB98B77D0DAC /* Support Files */,
+				0515DA48BE9AC9F70CCA2ADFAE2D9099 /* PopNavi.swift */,
+				723F3C2F67CDC48C4EC522D5148DB3EF /* Configure */,
+				9D5A10261FF7290555853DF58DD75AAF /* Pod */,
+				0E601E65D3217B9EFE7943D73AEE1910 /* StyleSheet */,
+				715CCEFC436B499ECB3E00EE66F992D2 /* Support Files */,
+				9FE0C3AF49C393CAC19D1516BD2B17F2 /* Views */,
 			);
 			name = PhocaLargha;
 			path = ../..;
@@ -220,6 +257,14 @@
 			path = "Target Support Files/Pods-PhocaLargha_Example";
 			sourceTree = "<group>";
 		};
+		F469DD445B20FEE8F7D4AAFAC37FE4B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA140E0277D1CA73261428E27B92D5 /* PhocaLargha */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -239,34 +284,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C386EC6315627B65BBB3738659BB39E6 /* Headers */ = {
+		AC70CBAC8D935D24A5685D10E71FAA50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD29C69DB4B96B4F4B2256B8534D92B6 /* PhocaLargha-umbrella.h in Headers */,
+				8A1E9811065529FF52662A597E982C47 /* PhocaLargha-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0879A89170610653A469D945530B6645 /* PhocaLargha */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CC871F1B6EFB2EE4A3398F9D6A6CFD5 /* Build configuration list for PBXNativeTarget "PhocaLargha" */;
-			buildPhases = (
-				AFA836561BCE38D6F36293ECBD9F9A4C /* Sources */,
-				718A2F5FCA2FE05A174EDE8192AA5395 /* Frameworks */,
-				C386EC6315627B65BBB3738659BB39E6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PhocaLargha;
-			productName = PhocaLargha;
-			productReference = 12F42F93DB40AF60778752789C96F2F6 /* PhocaLargha.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		15CFDB1C1C7C83E7B27783D1AD2E6106 /* Pods-PhocaLargha_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DA7EB5844E2841A7CE73787F978591F /* Build configuration list for PBXNativeTarget "Pods-PhocaLargha_Example" */;
@@ -283,6 +311,23 @@
 			name = "Pods-PhocaLargha_Example";
 			productName = "Pods-PhocaLargha_Example";
 			productReference = 870F70965B7E1A9142432EAF6278BAED /* Pods_PhocaLargha_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4244BA5D5801277C33A66BB5C3D29F8E /* PhocaLargha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF3D2976A3E0FED884A8B33F693DA1E /* Build configuration list for PBXNativeTarget "PhocaLargha" */;
+			buildPhases = (
+				FB1CE9FD1A5B149CF1D17E73A817BC0A /* Sources */,
+				1D475787A49FC778DC96C81F762011EE /* Frameworks */,
+				AC70CBAC8D935D24A5685D10E71FAA50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhocaLargha;
+			productName = PhocaLargha;
+			productReference = 12F42F93DB40AF60778752789C96F2F6 /* PhocaLargha.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A47532FD648D57F80E820D2F1889F56D /* Pods-PhocaLargha_Tests */ = {
@@ -323,7 +368,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0879A89170610653A469D945530B6645 /* PhocaLargha */,
+				4244BA5D5801277C33A66BB5C3D29F8E /* PhocaLargha */,
 				15CFDB1C1C7C83E7B27783D1AD2E6106 /* Pods-PhocaLargha_Example */,
 				A47532FD648D57F80E820D2F1889F56D /* Pods-PhocaLargha_Tests */,
 			);
@@ -339,20 +384,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFA836561BCE38D6F36293ECBD9F9A4C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79952BF33904ABE735353B68DA6DC432 /* PhocaLargha-dummy.m in Sources */,
-				F06DF6972528E2AC066D39E145775EB0 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB1C86D161C465333087B44ADE55F0EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3FC5FD89C9948177B07AAEA62F5504BA /* Pods-PhocaLargha_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1CE9FD1A5B149CF1D17E73A817BC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6BCAA4017CF5FB08A556B00DB3170B /* AnimationStyleSheet.swift in Sources */,
+				9BEE54939E0AF1A57910EF23F9731AB5 /* BaseView.swift in Sources */,
+				FC0FF97FAF5D8705ABDAA6988D3E258F /* ComponentConfigure.swift in Sources */,
+				98BD1959BB8555459704C01B19E86C26 /* GradientStyleSheet.swift in Sources */,
+				0F8413A127E867FE7AE3DBB1BE07C225 /* PagingScrollView.swift in Sources */,
+				ABD26492FBCCDDFE227DF6AE0B4349AE /* PhocaLargha-dummy.m in Sources */,
+				FCBC2F88FF24B15A9AAFFC53DDB520A3 /* PopNavi.swift in Sources */,
+				9E6050E19678658BA9C28673630E6D41 /* PopNaviConfigureOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +413,7 @@
 		2FA0C0BF9B28EEC1DB9AAF0DD77AE3E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PhocaLargha;
-			target = 0879A89170610653A469D945530B6645 /* PhocaLargha */;
+			target = 4244BA5D5801277C33A66BB5C3D29F8E /* PhocaLargha */;
 			targetProxy = 98C4DE31563B8733B05307F2F8A0932F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,9 +479,9 @@
 			};
 			name = Debug;
 		};
-		5E501CD22A4A8F2C5A1936BBC7A3C129 /* Release */ = {
+		6E23CA1908BE63E05D7BDA1A54A4C0C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF042DF4919F1FA4D02012CC49F5994A /* PhocaLargha.xcconfig */;
+			baseConfigurationReference = CD85FE2C5C9B805019357D9D20CF960C /* PhocaLargha.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -444,7 +495,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PhocaLargha/PhocaLargha-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PhocaLargha/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PhocaLargha/PhocaLargha.modulemap";
 				PRODUCT_NAME = PhocaLargha;
@@ -459,37 +510,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		66B4B8D2AF15046D81D175F4C4812AF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF042DF4919F1FA4D02012CC49F5994A /* PhocaLargha.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PhocaLargha/PhocaLargha-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PhocaLargha/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PhocaLargha/PhocaLargha.modulemap";
-				PRODUCT_NAME = PhocaLargha;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		72868321D2840B0E356468577A351D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -579,6 +599,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		7E54E55E22EC78AB4E0711FF653A0F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD85FE2C5C9B805019357D9D20CF960C /* PhocaLargha.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhocaLargha/PhocaLargha-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhocaLargha/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhocaLargha/PhocaLargha.modulemap";
+				PRODUCT_NAME = PhocaLargha;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9F86ACBE3974A21E5A8326FE29AE3420 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -700,11 +751,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CC871F1B6EFB2EE4A3398F9D6A6CFD5 /* Build configuration list for PBXNativeTarget "PhocaLargha" */ = {
+		5AF3D2976A3E0FED884A8B33F693DA1E /* Build configuration list for PBXNativeTarget "PhocaLargha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66B4B8D2AF15046D81D175F4C4812AF4 /* Debug */,
-				5E501CD22A4A8F2C5A1936BBC7A3C129 /* Release */,
+				7E54E55E22EC78AB4E0711FF653A0F26 /* Debug */,
+				6E23CA1908BE63E05D7BDA1A54A4C0C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
