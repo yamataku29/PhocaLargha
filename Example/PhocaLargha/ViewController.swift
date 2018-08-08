@@ -183,7 +183,7 @@ private extension ViewController {
     var completion: (() -> ())? {
         return { [weak self] () -> Void in
             // Define the handler after the dialog is closed.
-            //self?.alert()
+            self?.alert()
         }
     }
 
