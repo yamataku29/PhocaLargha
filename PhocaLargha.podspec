@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PhocaLargha'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A library that can easily display a rich walkthrough.'
 
 # This description is used to generate tags and improve search results.
