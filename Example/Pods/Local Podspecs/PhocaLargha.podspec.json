@@ -1,0 +1,22 @@
+{
+  "name": "PhocaLargha",
+  "version": "0.1.0",
+  "summary": "A short description of PhocaLargha.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/takuyama29/PhocaLargha",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "takuyama29": "tmn.sby001@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/takuyama29/PhocaLargha.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PhocaLargha/Classes/**/*"
+}

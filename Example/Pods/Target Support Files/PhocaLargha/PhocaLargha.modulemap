@@ -1,0 +1,6 @@
+framework module PhocaLargha {
+  umbrella header "PhocaLargha-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PhocaLargha (0.1.0)
+
+DEPENDENCIES:
+  - PhocaLargha (from `../`)
+
+EXTERNAL SOURCES:
+  PhocaLargha:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PhocaLargha: 612cba6d5357d698f8dcb98e01ea5b8948a92012
+
+PODFILE CHECKSUM: 1cb9c42065615b646ce67dfc7ab0c6a64a110665
+
+COCOAPODS: 1.4.0
