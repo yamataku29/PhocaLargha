@@ -65,8 +65,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         titleTextLabel.textAlignment = .center
         titleTextLabel.text = "Pop Navi Test"
+        titleTextLabel.delegate = self
         buttonTextLabel.textAlignment = .center
         buttonTextLabel.text = "NEXT"
+        buttonTextLabel.delegate = self
+    }
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
 
