@@ -1,19 +1,19 @@
 {
   "name": "PhocaLargha",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A library that can easily display a rich walkthrough.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/takuyama29/PhocaLargha",
+  "homepage": "https://github.com/yamataku29/PhocaLargha",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "takuyama29": "tmn.sby001@gmail.com"
+    "yamataku29": "tmn.sby001@gmail.com"
   },
   "source": {
-    "git": "https://github.com/takuyama29/PhocaLargha.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yamataku29/PhocaLargha.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"

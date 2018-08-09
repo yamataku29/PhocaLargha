@@ -1,5 +1,5 @@
 PODS:
-  - PhocaLargha (0.1.0)
+  - PhocaLargha (1.0.0)
 
 DEPENDENCIES:
   - PhocaLargha (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PhocaLargha: 4497c911f469dd2f1ef990220440e93e87c20545
+  PhocaLargha: 4b12c779013965263a48183415d040c2c4c33844
 
 PODFILE CHECKSUM: 1cb9c42065615b646ce67dfc7ab0c6a64a110665
 
