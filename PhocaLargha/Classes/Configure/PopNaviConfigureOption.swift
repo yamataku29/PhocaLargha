@@ -13,8 +13,6 @@ public struct PopNaviConfigureOption {
     public var backgroundColor: UIColor
     public var backgroundAlpha: CGFloat
     public var pageControlColor: UIColor
-    public var isDimissAnimation: Bool
-    public var isBackgroundFadeIn: Bool
     public var isDismissibleForTap: Bool
     public var shouldDisplayPageControl: Bool
     public var backgroundViewGradientType: GradientStyle
@@ -23,8 +21,6 @@ public struct PopNaviConfigureOption {
     init(backgroundColor: UIColor = UIColor.black,
          backgroundAlpha: CGFloat = 0.5,
          pageControlColor: UIColor = .orange,
-         isDimissAnimation: Bool = false,
-         isBackgroundFadeIn: Bool = true,
          isDismissibleForTap: Bool = true,
          shouldDisplayPageControl: Bool = true,
          backgroundViewFradientType: GradientStyle = .normal,
@@ -32,8 +28,6 @@ public struct PopNaviConfigureOption {
         self.backgroundColor = backgroundColor
         self.backgroundAlpha = backgroundAlpha
         self.pageControlColor = pageControlColor
-        self.isDimissAnimation = isDimissAnimation
-        self.isBackgroundFadeIn = isBackgroundFadeIn
         self.isDismissibleForTap = isDismissibleForTap
         self.shouldDisplayPageControl = shouldDisplayPageControl
         self.backgroundViewGradientType = backgroundViewFradientType
