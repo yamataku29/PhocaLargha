@@ -148,7 +148,7 @@ extension PopNavi: DimissAnimationDelegate {
 
 extension PopNavi: UIGestureRecognizerDelegate {
     public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
-        return (touch.view == gestureRecognizer.view) ? true : false
+        return touch.view == gestureRecognizer.view
     }
 }
 
