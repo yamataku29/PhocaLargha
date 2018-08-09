@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This library makes it easy to display the walkthrough in the application simply by writing a few lines of code.
+  You can customize various color backgrounds, titles, buttons, etc., and you can also define completion handlers.
                        DESC
 
   s.homepage         = 'https://github.com/yamataku29/PhocaLargha'
@@ -29,7 +30,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '4.0'
   s.source_files = 'PhocaLargha/Classes/**/*'
   
   # s.resource_bundles = {
