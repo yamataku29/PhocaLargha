@@ -11,11 +11,11 @@ import UIKit
 open class PopNavi: UIViewController, AppearAnimation, DimissAnimation {
     open var configureOption = PopNaviConfigureOption()
 
-    private var contentViews: [BaseView] = []
-    private var backgroundView: UIView?
-    private let scrollView = PagingScrollView()
-    private let pageControl = UIPageControl()
-    private var duration = 0.7
+    var contentViews: [BaseView] = []
+    var backgroundView: UIView?
+    let scrollView = PagingScrollView()
+    let pageControl = UIPageControl()
+    var duration = 0.7
 
     // MARK: - Lifecycle method
     override open func viewDidLoad() {
